@@ -1,0 +1,96 @@
+[
+  {
+    "id": "first-steps",
+    "title": "First Steps",
+    "tagline": "Finish 3 workouts in 2 weeks",
+    "description": "The hardest part is showing up. Complete any three workouts in the next fourteen days and you have built the habit that everything else rests on.",
+    "icon": "flag",
+    "metric": "workouts",
+    "target": 3,
+    "durationDays": 14,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "streak-starter",
+    "title": "Streak Starter",
+    "tagline": "Train 5 days in a row",
+    "description": "Five consecutive days with at least one finished workout. Short sessions count, so keep the streak alive even on busy days.",
+    "icon": "fire",
+    "metric": "streakDays",
+    "target": 5,
+    "durationDays": 14,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "push-up-200",
+    "title": "Push-up 200",
+    "tagline": "200 push-ups in 14 days",
+    "description": "Every push-up rep you log in any workout counts. Spread them across sessions or attack them in a few big days.",
+    "icon": "pushup",
+    "metric": "exerciseReps",
+    "exerciseId": "push-up",
+    "exerciseName": "Push Up",
+    "target": 200,
+    "durationDays": 14,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "plank-master",
+    "title": "Plank Master",
+    "tagline": "10 minutes of plank in 30 days",
+    "description": "Accumulate ten minutes of plank holds over the month. Quality beats duration: a strict 30 seconds is worth more than a sloppy two minutes.",
+    "icon": "timer",
+    "metric": "holdSeconds",
+    "exerciseId": "plank",
+    "exerciseName": "Plank",
+    "target": 600,
+    "durationDays": 30,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "iron-month",
+    "title": "Iron Month",
+    "tagline": "12 workouts in 30 days",
+    "description": "Three sessions a week for a month. This is the consistency that changes how you look and feel.",
+    "icon": "calendar",
+    "metric": "workouts",
+    "target": 12,
+    "durationDays": 30,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "ten-tonne-club",
+    "title": "10 Tonne Club",
+    "tagline": "Lift 10,000 kg in 30 days",
+    "description": "Total volume across every weighted set you log (reps × kg). Bodyweight moves count only when you add extra load.",
+    "icon": "scale",
+    "metric": "volumeKg",
+    "target": 10000,
+    "durationDays": 30,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "time-on-task",
+    "title": "Time on Task",
+    "tagline": "300 minutes of training in 30 days",
+    "description": "Five hours under the bar this month. Only finished workouts count toward the total.",
+    "icon": "clock",
+    "metric": "minutes",
+    "target": 300,
+    "durationDays": 30,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pull-up-100",
+    "title": "Pull-up 100",
+    "tagline": "100 pull-ups in 30 days",
+    "description": "One hundred strict pull-up reps across the month. Weighted reps count the same as bodyweight ones.",
+    "icon": "trophy",
+    "metric": "exerciseReps",
+    "exerciseId": "pull-up",
+    "exerciseName": "Pull Up",
+    "target": 100,
+    "durationDays": 30,
+    "difficulty": "advanced"
+  }
+]

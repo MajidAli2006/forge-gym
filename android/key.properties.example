@@ -1,0 +1,8 @@
+# Copy to android/key.properties (git-ignored) and fill in your release keystore.
+# Create one with:
+#   keytool -genkey -v -keystore forge-gym-release.jks -keyalg RSA -keysize 2048 \
+#     -validity 10000 -alias forgegym
+storeFile=../forge-gym-release.jks
+storePassword=CHANGE_ME
+keyAlias=forgegym
+keyPassword=CHANGE_ME

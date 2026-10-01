@@ -1,0 +1,417 @@
+[
+  {
+    "description": "A balanced introduction to strength training. One key movement per major muscle group, with generous rest so you can focus on clean technique.",
+    "difficulty": "beginner",
+    "durationMinutes": 45,
+    "exercises": [
+      {
+        "exerciseId": "leg-press",
+        "order": 0,
+        "reps": 12,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "push-up",
+        "order": 1,
+        "reps": 10,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "lat-pulldown",
+        "order": 2,
+        "reps": 12,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "shoulder-press-dumbbell",
+        "order": 3,
+        "reps": 10,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "bicep-curl-dumbbell",
+        "order": 4,
+        "reps": 12,
+        "restSeconds": 60,
+        "sets": 2
+      },
+      {
+        "exerciseId": "plank",
+        "order": 5,
+        "reps": 30,
+        "restSeconds": 60,
+        "sets": 3
+      }
+    ],
+    "id": "beginner-full-body",
+    "name": "Beginner Full Body",
+    "targetMuscles": [
+      "chest",
+      "back",
+      "legs",
+      "shoulders",
+      "biceps",
+      "core"
+    ]
+  },
+  {
+    "description": "Chest, shoulders and triceps. Heavy compound pressing first, then isolation work to finish the job. A Forge Gym classic.",
+    "difficulty": "intermediate",
+    "durationMinutes": 60,
+    "exercises": [
+      {
+        "exerciseId": "bench-press-barbell",
+        "order": 0,
+        "reps": 8,
+        "restSeconds": 120,
+        "sets": 4
+      },
+      {
+        "exerciseId": "incline-press-dumbbell",
+        "order": 1,
+        "reps": 10,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "shoulder-press-dumbbell",
+        "order": 2,
+        "reps": 10,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "lateral-raise",
+        "order": 3,
+        "reps": 14,
+        "restSeconds": 60,
+        "sets": 3
+      },
+      {
+        "exerciseId": "tricep-pushdown-cable",
+        "order": 4,
+        "reps": 12,
+        "restSeconds": 60,
+        "sets": 3
+      },
+      {
+        "exerciseId": "push-up",
+        "order": 5,
+        "reps": 15,
+        "restSeconds": 60,
+        "sets": 2
+      }
+    ],
+    "id": "push-day",
+    "name": "Push Day",
+    "targetMuscles": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ]
+  },
+  {
+    "description": "Back thickness, width and biceps. Start with the hardest pull (pull-ups), then row heavy and curl with control.",
+    "difficulty": "intermediate",
+    "durationMinutes": 60,
+    "exercises": [
+      {
+        "exerciseId": "pull-up",
+        "order": 0,
+        "reps": 8,
+        "restSeconds": 120,
+        "sets": 4
+      },
+      {
+        "exerciseId": "seated-row-cable",
+        "order": 1,
+        "reps": 12,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "lat-pulldown",
+        "order": 2,
+        "reps": 12,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "order": 3,
+        "reps": 10,
+        "restSeconds": 120,
+        "sets": 3
+      },
+      {
+        "exerciseId": "bicep-curl-dumbbell",
+        "order": 4,
+        "reps": 12,
+        "restSeconds": 60,
+        "sets": 3
+      }
+    ],
+    "id": "pull-day",
+    "name": "Pull Day",
+    "targetMuscles": [
+      "back",
+      "biceps"
+    ]
+  },
+  {
+    "description": "Quads, hamstrings, glutes and calves. Squat first while you're fresh, then hammer each muscle group. Bring water.",
+    "difficulty": "intermediate",
+    "durationMinutes": 65,
+    "exercises": [
+      {
+        "exerciseId": "squat-barbell",
+        "order": 0,
+        "reps": 8,
+        "restSeconds": 150,
+        "sets": 4
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "order": 1,
+        "reps": 10,
+        "restSeconds": 120,
+        "sets": 3
+      },
+      {
+        "exerciseId": "leg-press",
+        "order": 2,
+        "reps": 12,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "leg-extension",
+        "order": 3,
+        "reps": 14,
+        "restSeconds": 60,
+        "sets": 3
+      },
+      {
+        "exerciseId": "leg-curl",
+        "order": 4,
+        "reps": 14,
+        "restSeconds": 60,
+        "sets": 3
+      },
+      {
+        "exerciseId": "calf-raise",
+        "order": 5,
+        "reps": 15,
+        "restSeconds": 60,
+        "sets": 4
+      }
+    ],
+    "id": "leg-day",
+    "name": "Leg Day",
+    "targetMuscles": [
+      "legs",
+      "glutes"
+    ]
+  },
+  {
+    "description": "An advanced full-body strength session pairing upper and lower body compounds. Long rests, heavy loads, perfect reps.",
+    "difficulty": "advanced",
+    "durationMinutes": 75,
+    "exercises": [
+      {
+        "exerciseId": "squat-barbell",
+        "order": 0,
+        "reps": 5,
+        "restSeconds": 180,
+        "sets": 5
+      },
+      {
+        "exerciseId": "bench-press-barbell",
+        "order": 1,
+        "reps": 5,
+        "restSeconds": 180,
+        "sets": 5
+      },
+      {
+        "exerciseId": "seated-row-cable",
+        "order": 2,
+        "reps": 8,
+        "restSeconds": 120,
+        "sets": 4
+      },
+      {
+        "exerciseId": "shoulder-press-dumbbell",
+        "order": 3,
+        "reps": 8,
+        "restSeconds": 120,
+        "sets": 3
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "order": 4,
+        "reps": 8,
+        "restSeconds": 150,
+        "sets": 3
+      },
+      {
+        "exerciseId": "pull-up",
+        "order": 5,
+        "reps": 8,
+        "restSeconds": 120,
+        "sets": 3
+      }
+    ],
+    "id": "upper-lower",
+    "name": "Upper / Lower Power",
+    "targetMuscles": [
+      "chest",
+      "back",
+      "legs",
+      "shoulders",
+      "fullBody"
+    ]
+  },
+  {
+    "description": "A focused push specialization day. Press from flat and incline angles, then isolate the triceps from two directions.",
+    "difficulty": "intermediate",
+    "durationMinutes": 50,
+    "exercises": [
+      {
+        "exerciseId": "bench-press-barbell",
+        "order": 0,
+        "reps": 8,
+        "restSeconds": 120,
+        "sets": 4
+      },
+      {
+        "exerciseId": "incline-press-dumbbell",
+        "order": 1,
+        "reps": 10,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "push-up",
+        "order": 2,
+        "reps": 12,
+        "restSeconds": 60,
+        "sets": 3
+      },
+      {
+        "exerciseId": "tricep-pushdown-cable",
+        "order": 3,
+        "reps": 12,
+        "restSeconds": 60,
+        "sets": 4
+      }
+    ],
+    "id": "chest-triceps",
+    "name": "Chest & Triceps",
+    "targetMuscles": [
+      "chest",
+      "triceps"
+    ]
+  },
+  {
+    "description": "Build a wide, thick back and finish with strict curls. Every rep starts from a dead hang or a full stretch.",
+    "difficulty": "intermediate",
+    "durationMinutes": 50,
+    "exercises": [
+      {
+        "exerciseId": "pull-up",
+        "order": 0,
+        "reps": 8,
+        "restSeconds": 120,
+        "sets": 4
+      },
+      {
+        "exerciseId": "seated-row-cable",
+        "order": 1,
+        "reps": 12,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "lat-pulldown",
+        "order": 2,
+        "reps": 12,
+        "restSeconds": 90,
+        "sets": 3
+      },
+      {
+        "exerciseId": "bicep-curl-dumbbell",
+        "order": 3,
+        "reps": 12,
+        "restSeconds": 60,
+        "sets": 4
+      }
+    ],
+    "id": "back-biceps",
+    "name": "Back & Biceps",
+    "targetMuscles": [
+      "back",
+      "biceps"
+    ]
+  },
+  {
+    "description": "A fast, full-body circuit to raise your heart rate and burn calories. Move quickly between stations and keep rests short.",
+    "difficulty": "beginner",
+    "durationMinutes": 30,
+    "exercises": [
+      {
+        "exerciseId": "squat-barbell",
+        "order": 0,
+        "reps": 15,
+        "restSeconds": 30,
+        "sets": 3
+      },
+      {
+        "exerciseId": "push-up",
+        "order": 1,
+        "reps": 12,
+        "restSeconds": 30,
+        "sets": 3
+      },
+      {
+        "exerciseId": "lat-pulldown",
+        "order": 2,
+        "reps": 15,
+        "restSeconds": 30,
+        "sets": 3
+      },
+      {
+        "exerciseId": "crunch",
+        "order": 3,
+        "reps": 20,
+        "restSeconds": 30,
+        "sets": 3
+      },
+      {
+        "exerciseId": "calf-raise",
+        "order": 4,
+        "reps": 20,
+        "restSeconds": 30,
+        "sets": 3
+      },
+      {
+        "exerciseId": "plank",
+        "order": 5,
+        "reps": 30,
+        "restSeconds": 45,
+        "sets": 3
+      }
+    ],
+    "id": "fat-loss-circuit",
+    "name": "Fat Loss Circuit",
+    "targetMuscles": [
+      "fullBody",
+      "cardio",
+      "legs",
+      "core"
+    ]
+  }
+]
